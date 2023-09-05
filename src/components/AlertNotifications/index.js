@@ -1,6 +1,4 @@
 import {Component} from 'react'
-
-import {GrFormClose} from 'react-icons/gr'
 import {AiFillCheckCircle} from 'react-icons/ai'
 import {RiErrorWarningFill} from 'react-icons/ri'
 import {MdWarning, MdInfo} from 'react-icons/md'
@@ -26,7 +24,6 @@ class AlertNotifications extends Component {
                 You can access all the files in the folder
               </p>
             </div>
-            <GrFormClose className="close" alt="Close" />
           </div>
         </Notification>
         <Notification>
@@ -41,7 +38,6 @@ class AlertNotifications extends Component {
                 Sorry, you are not authorized to have access to delete the file
               </p>
             </div>
-            <GrFormClose className="close" alt="Close" />
           </div>
         </Notification>
         <Notification>
@@ -53,7 +49,6 @@ class AlertNotifications extends Component {
                 Viewers of this file can see comments and suggestions
               </p>
             </div>
-            <GrFormClose className="close" alt="Close" />
           </div>
         </Notification>
         <Notification>
@@ -65,7 +60,6 @@ class AlertNotifications extends Component {
                 Anyone on the internet can view these files
               </p>
             </div>
-            <GrFormClose className="close" alt="Close" />
           </div>
         </Notification>
       </div>
