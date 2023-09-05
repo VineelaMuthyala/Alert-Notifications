@@ -8,3 +8,8 @@
   border: 1px solid #e5e5e5;
   margin: 10px;
 }
+.close {
+  width: 20%;
+  font-size: 30px;
+  font-weight: bold;
+}
